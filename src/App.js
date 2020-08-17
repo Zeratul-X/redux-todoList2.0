@@ -1,26 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+/*
+ * @Author: Zeratul
+ * @Date: 2020-08-17 10:30:23
+ * @LastEditTime: 2020-08-17 18:02:41
+ * @FilePath: \todolist-with-redux\src\App.js
+ */
+import React, { Component } from 'react'
+import TodoList from './components/TodoList'
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <TodoList></TodoList>
+      </div>
+    )
+  }
 }
-
-export default App;

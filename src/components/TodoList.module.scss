@@ -1,0 +1,24 @@
+.box {
+  display: flex;
+  margin: 0 auto;
+  width: 800px;
+
+  .inpTodo {
+    flex: 9;
+    height: 50px;
+  }
+
+  .btnAddTodo {
+    flex: 1;
+    height: 50px;
+  }
+}
+.list {
+  padding-top: 20px;
+  display: flex;
+  margin: 0 auto;
+  width: 800px;
+  .todoList {
+    width: 100%;
+  }
+}
